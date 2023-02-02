@@ -21,6 +21,24 @@ public class Mild1 {
         /***
          * Your code goes here
          */
+//        sum = a[0]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[9];
+//        sum = sum + a[0];
+//        sum = sum + a[1];
+//        sum = sum + a[2];
+//        sum = sum + a[3];
+//        sum = sum + a[4];
+//        sum = sum + a[5];
+//        sum = sum + a[6];
+//        for (int i = 0; i < a.length; i++){
+////            System.out.println(a[i]);
+//            sum = sum + a[i];
+
+
+//        }
+        for (int element : a){
+            sum = sum + element;
+        }
+
 
         System.out.println("The sum is " + sum);
 

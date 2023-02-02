@@ -19,9 +19,17 @@ public class Mild2 {
             a[i] = (int)(Math.random()*100);
         }
 
+
+
         /***
          * Your code goes here
          */
+        for (int i = 0; i <a.length; i++){
+            a[i] = (int)(Math.random()*100);
+            mean = mean + a[i];
+
+        }
+        mean = mean/a[a.length-1];
 
         System.out.println("The mean is " + mean);
 
